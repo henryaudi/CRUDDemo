@@ -57,6 +57,13 @@ public class Employee {
         this.email = email;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     // Define toString
     @Override
